@@ -1,2 +1,2 @@
 # RedeSocial
-### aplicaão que vai consumir a API de rede social
+### aplicação que vai consumir a API de rede social
