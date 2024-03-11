@@ -12,7 +12,7 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 
 	usuario, erro := json.Marshal(map[string]string{
-		"nome":  r.FormValue("nomes"),
+		"nome":  r.FormValue("nome"),
 		"email": r.FormValue("email"),
 		"nick":  r.FormValue("nick"),
 		"senha": r.FormValue("senha"),
